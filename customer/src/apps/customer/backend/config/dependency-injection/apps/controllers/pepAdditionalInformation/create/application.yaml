@@ -1,0 +1,4 @@
+services:
+  Apps.controllers.CreateCustomerPostController:
+    class: ../../../../../../controllers/customer/create/CreateCustomerPostController
+    arguments: ['@Contexts.customer.CreateCustomer']

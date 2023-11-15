@@ -1,0 +1,11 @@
+name: customer
+replicas: 1
+expose: true
+prefix: /v1/customer
+subdomain: api
+port: 4000
+tier: backend
+track: stable
+variables:
+  - MONGO_ATLAS_SRV
+  - NATS_HOST

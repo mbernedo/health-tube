@@ -1,0 +1,3 @@
+services:
+  Apps.middlewares.CheckUserIdHeaderMiddleware:
+    class: ../../../../middlewares/CheckUserIdHeaderMiddleware

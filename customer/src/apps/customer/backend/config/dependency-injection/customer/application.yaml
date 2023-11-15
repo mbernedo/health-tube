@@ -1,0 +1,9 @@
+services:
+  Contexts.customer.MongoCustomerRepository:
+    class: ../../../../../../Contexts/customer/customer/infrastructure/persistence/MongoCustomerRepository
+  Contexts.customer.CreateCustomer:
+    class: ../../../../../../Contexts/customer/customer/application/create/CreateCustomer
+    arguments: [
+        '@Contexts.customer.MongoCustomerRepository'
+    ]
+

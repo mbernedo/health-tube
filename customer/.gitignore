@@ -1,0 +1,42 @@
+# NodeJs
+**/node_modules
+# Terraform
+**/terraform.tfvars
+# Temp files
+**/*.temp
+**/*.tmp
+**/temp
+/deploy/temp
+# Env
+**/*.env
+!.dist.env
+**/*.http
+# Mongo database
+/dump
+# Certificates
+**/*.crt
+**/*.pem
+# Gitlab
+**/values.yaml
+.idea
+**/.DS_Store
+.idea/
+**/.vscode
+# Bit
+**/.bit
+# Build
+**/build
+**/dist
+**/*secret*
+.dccache
+
+**/.nuxt
+**/package-lock.json
+
+#Java
+**/.gradle
+
+**/secret
+
+#kambista
+deploy/config.yaml
